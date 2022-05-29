@@ -3,7 +3,7 @@
   roles:
     - mariadb
    
-- name: install PHP/Apache
+- name: install php
   hosts: server
   roles:
-    - PHP/Apache
+    - php
