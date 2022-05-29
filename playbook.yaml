@@ -1,0 +1,9 @@
+- name: install mariadb
+  hosts: server
+  roles:
+    - mariadb
+   
+- name: install PHP/Apache
+  hosts: server
+  roles:
+    - PHP/Apache
